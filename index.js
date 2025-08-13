@@ -1,10 +1,31 @@
-import 'dotenv/config'
-import express from "express"
+import "dotenv/config";
+import express from "express";
+import logger from "./logger.js";
+import morgan from "morgan";
 
 const app = express();
-const port = process.env.PORT ||  3000;
+// const port = process.env.PORT ||  3000;
+const port = 3000;
 
 app.use(express.json());
+
+const morganFormat = ":method :url :status :response-time ms";
+
+app.use(
+  morgan(morganFormat, {
+    stream: {
+      write: (message) => {
+        const logObject = {
+          method: message.split(" ")[0],
+          url: message.split(" ")[1],
+          status: message.split(" ")[2],
+          responseTime: message.split(" ")[3],
+        };
+        logger.info(JSON.stringify(logObject));
+      },
+    },
+  })
+); 
 
 let movieData = [];
 let nextId = 1;
@@ -13,6 +34,7 @@ let nextId = 1;
 
 // add a new movie
 app.post("/movies", (req, res) => {
+  // logger.info("A post request is made for new movie"); // can use info or warn 
   const { name, type } = req.body;
   const newMovie = { id: nextId++, name, type };
   movieData.push(newMovie);

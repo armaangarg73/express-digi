@@ -1,0 +1,13 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"4.130\"}","timestamp":"2025-08-12T21:53:11.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"0.208\"}","timestamp":"2025-08-12T21:53:13.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/movies\",\"status\":\"200\",\"responseTime\":\"0.341\"}","timestamp":"2025-08-12T21:54:07.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post request is made for new movie","timestamp":"2025-08-12T21:57:02.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"7.751\"}","timestamp":"2025-08-12T21:57:02.637Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post request is made for new movie","timestamp":"2025-08-12T21:58:04.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"500\",\"responseTime\":\"4.230\"}","timestamp":"2025-08-12T21:58:04.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"500\",\"responseTime\":\"2.083\"}","timestamp":"2025-08-12T21:58:45.402Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"3.035\"}","timestamp":"2025-08-12T21:59:25.577Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"0.338\"}","timestamp":"2025-08-12T21:59:27.810Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"500\",\"responseTime\":\"1.488\"}","timestamp":"2025-08-12T21:59:33.019Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/movies\",\"status\":\"201\",\"responseTime\":\"3.067\"}","timestamp":"2025-08-12T22:01:16.897Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/movies\",\"status\":\"200\",\"responseTime\":\"0.530\"}","timestamp":"2025-08-12T22:02:26.855Z"}
